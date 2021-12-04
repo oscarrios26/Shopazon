@@ -1,3 +1,4 @@
+import {BASE_URL, config} from './services'
 import { Link, Routes, Route } from 'react-router-dom'
 import {useEffect, useState} from 'react'
 import axios from 'axios'
@@ -7,14 +8,7 @@ import Details from './components/Details/Details'
 
 
 function App() {
-  const BASE = process.env.REACT_APP_AIRTABLE_BASE 
-  const KEY = process.env.REACT_APP_AIRTABLE_KEY
-  const BASE_URL = `https://api.airtable.com/v0/${BASE}/shopazon`
-  const config = {
-    headers: {
-      Authorization: `Bearer ${KEY}`
-    }
-  }
+
 const [games, setGames] = useState([])
 
   useEffect(() => {
