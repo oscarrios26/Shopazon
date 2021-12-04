@@ -7,8 +7,8 @@ import Details from './components/Details/Details'
 
 
 function App() {
-  const BASE = 'appAgSGw5HszDn6qS'
-  const KEY = 'keyWmknf9pWUNboUu'
+  const BASE = process.env.REACT_APP_AIRTABLE_BASE 
+  const KEY = process.env.REACT_APP_AIRTABLE_KEY
   const BASE_URL = `https://api.airtable.com/v0/${BASE}/shopazon`
   const config = {
     headers: {
