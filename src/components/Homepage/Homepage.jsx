@@ -4,6 +4,8 @@ import { Link } from "react-router-dom"
 
 
 export default function Homepage(props) {
+    
+
     return (
         <div>
             {props.games.map(vg => (
