@@ -15,7 +15,7 @@ import Cart from './components/Cart/Cart'
 
 function App(props) {
   
-    
+  const [cartPage, setCartPage]= useState({})
   const [image, setImage] = useState("");
   const [text, setText] = useState("");
   const [price, setPrice] = useState("");
