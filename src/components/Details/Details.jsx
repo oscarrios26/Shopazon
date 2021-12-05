@@ -2,15 +2,13 @@
 import { useParams } from "react-router-dom"
 import './Details.css'
 import { useState } from "react"
+import Nav from "../Nav/Nav"
 
 
 
 export default function Detail(props) {
 
-    
-        
-    
-    const [cart, setCart] = useState([])
+const [cart, setCart] = useState([])
     
     
 
@@ -32,10 +30,10 @@ const addToCart = (products) => {
     return (
 
         <><div>
-            
+
         </div><><div>
 
-
+            <Nav cart={cart}/>
 
             <h3>{gameInfo.fields.title}</h3>
             <img className="gameImage" src={gameInfo.fields.image} />
@@ -44,6 +42,8 @@ const addToCart = (products) => {
             <button onClick={() => addToCart(gameInfo.fields.image)}>Add To Cart</button>
 
 
-        </div></></>
+        </div></><div>
+
+            </div></>
     )
 }
