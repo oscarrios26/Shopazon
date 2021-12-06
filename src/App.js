@@ -65,7 +65,7 @@ function App(props) {
 
 
 return (
-    <div className='Home-grid'>
+    <div >
     <Nav cart={cart} setCart={setCart} />
     <Footer />
     

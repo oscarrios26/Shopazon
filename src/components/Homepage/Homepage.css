@@ -1,0 +1,17 @@
+.gameshomepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+ .eachgame{
+    width: 450px;
+    height: 500px;
+ }
+    
+   
+    
+
+.dispalytitle {
+    text-align: center;
+}

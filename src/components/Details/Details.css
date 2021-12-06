@@ -1,4 +1,11 @@
 .gameImage {
     width: 500px;
+    height: 600px;
+}
+.infoGame{
+    text-align: center;
+}
+#imageGame{
+    width: 400px;
     height: 500px;
 }

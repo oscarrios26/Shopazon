@@ -29,14 +29,14 @@ const addToCart = (gameInfo) => {
    
    
    return (
-<><div>
-</div><><div>
+
+<div className="infoGame" >
     <h3>{gameInfo.fields.title}</h3>
-    <img className="gameImage" src={gameInfo.fields.image} />
+    <img id="imageGame" src={gameInfo.fields.image} />
     <h3>{gameInfo.fields.text}</h3>
     <h3>{gameInfo.fields.price}</h3>
     <button onClick={() => addToCart(gameInfo)}>Add To Cart</button>
- </div></><div>
+ </div>
 
-</div></>)
+)
 }
