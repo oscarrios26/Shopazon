@@ -11,6 +11,7 @@ import Form from './components/Form.jsx'
 import Footer from './components/Footer/Footer'
 import Myinfo from './components/Footer/Myinfo'
 import Cart from './components/Cart/Cart'
+import './App.css';
 
 
 
@@ -25,6 +26,7 @@ function App(props) {
   const [toggle, setToggle] = useState(false)
   const navigate = useNavigate()
   const [cart, setCart] = useState([]);
+  console.log(cart)
 
   useEffect(() => {
     const getGames = async () => {
@@ -61,14 +63,12 @@ function App(props) {
 
 
 
-        
-
 
 return (
-    <div>
-    <Nav />
+    <div className='Home-grid'>
+    <Nav cart={cart} setCart={setCart} />
     <Footer />
-
+    
 
     <Routes>
       <Route path={'/'} element={<Homepage games={games} />} />
