@@ -31,12 +31,14 @@ const addToCart = (gameInfo) => {
    
    return (
 
-<div className="infoGame" >
-    <h3>{gameInfo.fields.title}</h3>
-    <img id="imageGame" src={gameInfo.fields.image} />
-    <h3>{gameInfo.fields.text}</h3>
-    <h3>{gameInfo.fields.price}</h3>
-    <button onClick={() => addToCart(gameInfo)}>Add To Cart</button>
+<div >
+     <h3 className="infoTitle">{gameInfo.fields.title}</h3> 
+    <img className="infoImage" src={gameInfo.fields.image} />
+    <h3 className="infoText">{gameInfo.fields.text}</h3>
+    <div className="infoPrice">
+    <h3 >{gameInfo.fields.price}</h3>
+    <button className="buttoncart" onClick={() => addToCart(gameInfo)}>Add To Cart</button>
+    </div>
  </div>
 
 )

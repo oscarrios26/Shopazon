@@ -1,9 +1,9 @@
 
 
-
+ 
 .cartImage{
   
-  display: block;
+   display: block; 
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -13,13 +13,16 @@
 
   
 }
-.cartprice{
+.cartPrice{
    text-align: center;
+   font-size: 25px;
+   margin-bottom: 90px;
 }
 
-.cartTitle{
+/* .cartTitle{
     text-align: center;
     font-size: 50px;
-}
+}  */
+
 
 

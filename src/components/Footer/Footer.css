@@ -4,8 +4,17 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: rgb(7, 36, 73);
   color: white;
-  text-align: center;
+  text-align: center; 
+  padding: 10px;
+  font-size: 15px;
+  
 
 }
+.linktag{
+  color: white;
+}
+
+
+  

@@ -22,8 +22,8 @@ export default function Cart(props) {
                 <div >
                     
                     <img className="cartImage" src={crt.fields.image} />
-
-                    <h1 className="cartprice">{crt.fields.price}</h1></div>
+                    {/* <h1 className="cartText">{crt.fields.text}</h1> */}
+                    <h1 className="cartPrice">{crt.fields.price}</h1></div>
 
             ))}
             </div>

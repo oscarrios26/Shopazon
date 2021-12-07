@@ -1,20 +1,20 @@
-/* .mainnav{
+ .mainnav{
     position: -webkit-sticky; 
     position: sticky;
-    top: 0;
-    background-color: rgb(194, 229, 194);
+    top: 0px;
+    background-color: rgb(7, 36, 73);
     border: 2px solid #4CAF50;
-    padding-bottom: 20px;
-    margin-bottom: 300px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
     
-} */
+} 
 
 .homenav{
     margin-left: 1220px;
     display: inline-block;
     font-size: 20px;
     padding-right: 20px;
-    color: blue;
+    
     
 }
 .cartnav{
@@ -24,8 +24,19 @@
     font-size: 20px;
 }
 .sellnav{
+   
     text-align: right;
-    padding-right: 10px;
+    padding-right: 20px;
     display: inline-block;
     font-size: 20px;
+   
+}
+.linkhome{
+    color: white;
+}
+.linkcart{
+    color: white
+}
+.linksell{
+    color:white
 }

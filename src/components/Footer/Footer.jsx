@@ -6,7 +6,7 @@ import './Footer.css'
 export default function Footer() {
     return (
         <div id="Footer">
-            <Link to='/Footer'>About</Link>
+            <Link className="linktag" to='/Footer'>About</Link>
 
         </div>
     )
