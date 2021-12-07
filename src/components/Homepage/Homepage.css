@@ -1,12 +1,15 @@
 .gameshomepage {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 70px;
     
 }
 
  .eachgame{
-    width: 450px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
+    margin-top: 150px;
+    
  }
     
    
@@ -14,4 +17,5 @@
 
 .dispalytitle {
     text-align: center;
+    
 }

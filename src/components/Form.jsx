@@ -3,9 +3,9 @@ import "./Form.css"
 
 export default function form(props) {
     return (
-        <div>
+        <div >
             <div>
-      <form onSubmit={props.handleSubmit}>
+      <form onSubmit={props.handleSubmit} id="final">
         <h4 className="formTitle">Sell your games here!!</h4>
 
         <div className="inputDescription">

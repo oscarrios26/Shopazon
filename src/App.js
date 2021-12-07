@@ -67,14 +67,14 @@ function App(props) {
 return (
     <div >
     <Nav cart={cart} setCart={setCart} />
-    <Footer />
+    <Footer/>
     
 
     <Routes>
       <Route path={'/'} element={<Homepage games={games} />} />
       <Route path={'/details/:id'} element={<Detail games={games} cart={cart} setCart={setCart}/>} /> 
        <Route path={'/new'} element={<Form text={text} setText={setText} setImage={setImage} image={image} price={price} setPrice={setPrice} title={title} setTitle={setTitle} handleSubmit={handleSubmit} />} /> }
-      <Route path={'/About'} element={<Myinfo />} />
+       <Route path={'/Footer'} element={<Myinfo />} /> 
       <Route path={'/cart'} element={<Cart cart={cart} setCart={setCart} />} />
     </Routes>
   </div>

@@ -1,9 +1,14 @@
-.gameImage {
-    width: 500px;
-    height: 600px;
-}
+
+    
+    
+
 .infoGame{
-    text-align: center;
+text-align: center;
+position: absolute;
+
+
+
+ 
 }
 #imageGame{
     width: 400px;

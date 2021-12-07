@@ -19,6 +19,7 @@ if (!gameInfo) {
    
 const addToCart = (gameInfo) => {
     setCart([...cart, gameInfo])
+    
 }
    
    

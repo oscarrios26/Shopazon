@@ -1,4 +1,10 @@
 import { useState } from "react";
+
+import "./Cart.css"
+
+
+
+
 export default function Cart(props) {
 
     const {cart} = props;
@@ -7,23 +13,22 @@ export default function Cart(props) {
  
      
     return (
-        <><div>
-            <h1>CART</h1>
+       
+        <div className="gridCart">
+            
+            <h2 className="cartTitle">Cart</h2>
+            <div>
             {props.cart.map(crt => (
-                <><div>
-                    <img src={crt.fields.image} />
+                <div >
                     
-                    <h1>{crt.fields.price}</h1></div>
-                </>
+                    <img className="cartImage" src={crt.fields.image} />
+
+                    <h1 className="cartprice">{crt.fields.price}</h1></div>
+
             ))}
-
-
-        </div><h3>Total:{ props.cart.map(crt => (
-                <><div>
-                    
-                    <h1>{crt.fields.price * crt.fields.price  }</h1></div>
-                </>
-            ))}</h3></>
+            </div>
+            
+        </div>
            
            )}
 
