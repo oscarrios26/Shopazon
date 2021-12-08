@@ -1,21 +1,18 @@
 
 
  
-.infoImage{
+#gamedetais{
 text-align: center;
-margin-left: 500px;
-width: 400px;
-height: 500px;
 }
 
-
+#imagesize{
+    width: 400px;
+    height: 500px;
+}
 
  
 
-.infoTitle{
-    text-align: center;
 
-}
 .infoText{
     text-align: center;
 

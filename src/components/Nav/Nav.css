@@ -1,60 +1,38 @@
  .mainnav{
-     /* position: -webkit-sticky; 
-    position: sticky;  */
-    position: relative;
+    
+    
     width: 100%;
-    top: 0px;
+    height: 100px;   
     background-color: rgb(7, 36, 73);
     border: 2px solid #0e110e;
-    padding-bottom: 0px;
-    margin-right:00px ;
-    margin-bottom: 100px;
+   
 
    
-} 
+ }
 
-.homenav{
-    margin-left: 1220px;
-    display: inline-block;
-    font-size: 20px;
-    padding-right: 20px;
-    
-    
-}
-.cartnav{
-    text-align: right;
-    padding-right: 20px;
-    display: inline-block;
-    font-size: 20px;
-}
-.sellnav{
-   
-    text-align: right;
-    padding-right: 0px;
-    display: inline-block;
-    font-size: 20px;
+ 
+
+.homep{
+   text-align: right;
+   margin-top: 70px;
+   font-size: 30px;
+   margin-right: 10px;
    
 }
-.linkhome{
-    color: white;
-    text-decoration: none;
-}
-.linkcart{
-    color: white;
-    text-decoration: none;
-}
-.linksell{
-    color:white;
-    text-decoration: none;
-}
+   
+    .homelink{
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }
 
-  .shopazon{
-    color: white;
-    
-    top: 20px;
-    
-    left: 200px; 
-    font-size: 20px;
-    
-
-}    
+    .cartlink{
+       color: white;
+       text-decoration: none;
+       margin-left: 15px;
+    }
+    .sellink{
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+    }

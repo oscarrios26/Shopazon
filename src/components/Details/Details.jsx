@@ -32,8 +32,10 @@ const addToCart = (gameInfo) => {
    return (
 
 <div className="rela" >
-     <h3 className="infoTitle">{gameInfo.fields.title}</h3> 
-    <img className="infoImage" src={gameInfo.fields.image} />
+    <div id="gamedetais">
+     <h3 >{gameInfo.fields.title}</h3> 
+     <img id="imagesize"  src={gameInfo.fields.image} />
+     </div>
     <h3 className="infoText">{gameInfo.fields.text}</h3>
     <div className="infoPrice">
     <h3 >{gameInfo.fields.price}</h3>
