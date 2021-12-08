@@ -17,7 +17,7 @@ Shopazon is an e-commerce app that has the most popular and high-rated video gam
 
 
 <img src="https://user-images.githubusercontent.com/92955104/144439891-7a009aba-6acc-4314-adac-52b645a63c65.jpeg" alt="home" width="300"/>
-<img src="https://user-images.githubusercontent.com/92955104/144626194-94f38eb2-7876-4ac5-b46d-5e76d26235ee.png alt="info" width="300"/>
+
 <img src=https://user-images.githubusercontent.com/92955104/144393585-5472570d-9f8d-4b15-bf09-5469b5a3883a.jpeg alt="cart" width="300"/>
 
 ## Component Hierarchy
