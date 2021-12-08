@@ -12,7 +12,8 @@ Shopazon is an e-commerce app that has the most popular and high-rated video gam
 
    
 ## Wireframes
-![PC Screen](https://user-images.githubusercontent.com/92955104/144626027-72c8bdbc-12cc-4dae-aaf4-b242c951d9a0.png)
+![PC Screen - Window (2)](https://user-images.githubusercontent.com/92955104/145266930-34ae7c4d-03a8-4ca4-a8aa-515fec3aadef.png)
+
 
 <img src="https://user-images.githubusercontent.com/92955104/144439891-7a009aba-6acc-4314-adac-52b645a63c65.jpeg" alt="home" width="300"/>
 <img src="https://user-images.githubusercontent.com/92955104/144626194-94f38eb2-7876-4ac5-b46d-5e76d26235ee.png alt="info" width="300"/>
