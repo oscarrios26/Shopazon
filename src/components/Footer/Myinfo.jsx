@@ -4,8 +4,8 @@ export default function Myinfo() {
     return (
         <div className="aboutMe">
             <div className="bluediv">
-            <h1>Shopazon</h1>
-            <h3>CEO Oscar Rios</h3>
+            <h1 className="storename">Shopazon</h1>
+            <h3 className="ceo">CEO Oscar Rios</h3>
             </div>
             <p className="mission">At Shopazon our customers are our most important value, customer satisfaction is our main priority.
                  We distribute over one million games worldwide, satisfying millions of gamers like you. 

@@ -3,12 +3,13 @@
     grid-template-columns: 1fr 1fr;
     padding-bottom: 70px;
     
+    
 }
 
  .eachgame{
     width: 300px;
     height: 400px;
-    margin-top: 150px;
+    margin-top: 50px;
     
  }
     
@@ -18,15 +19,23 @@
 .dispalytitle {
     text-align: center;
     text-decoration: none;
+    
 }
 
 #hometitlegame{
-    text-decoration: none;
+    text-decoration: none;font-family: monospace;
     font-size: 20px;
     color: #0F1111;
-    font-family: "Amazon Ember",Arial,sans-serif;
+    font-family: sans-serif;
 }
 #hometitlegame:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+.websitename{
+    font-size: 65px;
+    text-align: center;
+    font-family: Courier, monospace; 
+    font-weight: bold;
+    
 }

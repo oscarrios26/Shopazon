@@ -7,7 +7,7 @@ export default function form(props) {
      
         
         <div class="exampleText">
-        <p className="terms">By continuing, you agree to Amazon's Conditions of </p> 
+        <p className="terms">By continuing, you agree to Shopazon's Conditions of </p> 
         <p className="terms2"> Use and Privacy Notice.</p> 
         <div id="Final">
           <form onSubmit={props.handleSubmit} >

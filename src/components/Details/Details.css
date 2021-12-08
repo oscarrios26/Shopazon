@@ -15,8 +15,9 @@ text-align: center;
 
 .infoText{
     text-align: center;
-    font-family: "Amazon Ember",Arial,sans-serif;
-    font-size: 15px;
+    font-family: "Optima, sans-serif";
+    font-size: 20px;
+    
 
 }
 .infoPrice{
@@ -44,6 +45,6 @@ text-align:center;
    transform: scale(1.1);
 }
 .gameinfodetails{
-    font-family: "Amazon Ember",Arial,sans-serif;
+    font-family: monospace;
     font-size: 25px;
 }

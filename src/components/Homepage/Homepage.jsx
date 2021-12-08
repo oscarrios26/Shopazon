@@ -12,7 +12,7 @@ export default function Homepage(props) {
         return <h3>Loading...</h3>
     }
     return (<><div>  
-         
+         <p className="websitename">Shopazon</p>
     </div><><div className="gameshomepage">
         {props.games.map(vg => (
 
