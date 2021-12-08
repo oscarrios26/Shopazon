@@ -13,8 +13,6 @@ export default function Cart(props) {
     console.log(setCart)
 
 
-   
-
 
     return (
        
