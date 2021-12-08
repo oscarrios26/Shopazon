@@ -12,11 +12,22 @@
   
 
 }
+#Footer:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .linktag{
   color: white;
   text-decoration: none;
   
 }
 
-
-  
+.aboutMe{
+  text-align: center;
+}
+.mission{
+  margin-top: 300px;
+}
+.bluediv{
+  background-color: rgb(25, 111, 209);
+}

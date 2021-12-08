@@ -17,5 +17,16 @@
 
 .dispalytitle {
     text-align: center;
-    
+    text-decoration: none;
+}
+
+#hometitlegame{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0F1111;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+#hometitlegame:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }

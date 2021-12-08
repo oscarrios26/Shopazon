@@ -33,7 +33,7 @@ const addToCart = (gameInfo) => {
 
 <div className="rela" >
     <div id="gamedetais">
-     <h3 >{gameInfo.fields.title}</h3> 
+     <h3 className="gameinfodetails">{gameInfo.fields.title}</h3> 
      <img id="imagesize"  src={gameInfo.fields.image} />
      </div>
     <h3 className="infoText">{gameInfo.fields.text}</h3>

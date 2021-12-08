@@ -7,10 +7,11 @@ export default function form(props) {
      
         
         <div class="exampleText">
-        <h4 className="terms">By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</h4>
+        <p className="terms">By continuing, you agree to Amazon's Conditions of </p> 
+        <p className="terms2"> Use and Privacy Notice.</p> 
         <div id="Final">
           <form onSubmit={props.handleSubmit} >
-            <h4 >Sell your games here!!</h4>
+            <h4 id="formtitle" >Selling</h4>
 
             
               

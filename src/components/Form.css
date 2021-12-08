@@ -25,9 +25,24 @@
     margin-bottom: 10px;
 }
 #buttoninput{
-    font-size: 20px;
-    margin-left: 55px;
-    padding: 0 50px;
+    font-size: 15px;
+    margin-left: 64px;
+    padding: 5px 50px;
+    /* padding:0.7em 1.7em; */
+/* margin:0 0.3em 0.3em 0; */
+border-radius:0.2em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+background-color:#3369ff;
+box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+text-align:center;
+}
+#buttoninput:hover{
+    -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
@@ -48,13 +63,32 @@
   .terms{
       position: absolute;
       top: 400px;
-      color: tomato;
-      text-indent: 120px;
-      text-align: center;
-      left: 1px;
-      right: 10px;
+      color: black;
+      margin-left: 120px;
+      
+      font-family: "Amazon Ember",Arial,sans-serif;
   } 
+  .terms:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .terms2{
+    position: absolute;
+    top: 420px;
+    color: black;
+    margin-left: 220px;
+   
+    font-family: "Amazon Ember",Arial,sans-serif;
+  }
+  .terms2:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
-
+#formtitle{
+    margin-left: 80px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 30px;
+}
 
   
