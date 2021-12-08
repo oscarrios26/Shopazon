@@ -7,7 +7,7 @@ const {cart} = props;
 const {setCart} = props;
     return (
         <div className='mainnav'>
-          
+          <h3 className="shopazon">shopazon</h3>
         <div className="homenav">
             <Link className="linkhome" to='/'>Home</Link>
         </div>

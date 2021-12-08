@@ -1,12 +1,16 @@
  .mainnav{
-    position: -webkit-sticky; 
-    position: sticky;
+     /* position: -webkit-sticky; 
+    position: sticky;  */
+    position: relative;
+    width: 100%;
     top: 0px;
     background-color: rgb(7, 36, 73);
-    border: 2px solid #4CAF50;
-    padding-bottom: 25px;
-    margin-bottom: 10px;
-    
+    border: 2px solid #0e110e;
+    padding-bottom: 0px;
+    margin-right:00px ;
+    margin-bottom: 100px;
+
+   
 } 
 
 .homenav{
@@ -26,17 +30,31 @@
 .sellnav{
    
     text-align: right;
-    padding-right: 20px;
+    padding-right: 0px;
     display: inline-block;
     font-size: 20px;
    
 }
 .linkhome{
     color: white;
+    text-decoration: none;
 }
 .linkcart{
-    color: white
+    color: white;
+    text-decoration: none;
 }
 .linksell{
-    color:white
+    color:white;
+    text-decoration: none;
 }
+
+  .shopazon{
+    color: white;
+    
+    top: 20px;
+    
+    left: 200px; 
+    font-size: 20px;
+    
+
+}    
