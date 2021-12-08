@@ -92,3 +92,28 @@ text-align:center;
 }
 
   
+
+@media only screen and (max-width: 600px){
+  .exampleText{
+    width: 500px;
+    height: 500px;
+    margin-right: 0px;
+   
+    
+    
+  }
+  #Final{
+    margin-left: 50px;
+    
+    
+
+}
+
+}
+  
+    
+    
+    
+
+
+

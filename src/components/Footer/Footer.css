@@ -48,3 +48,17 @@
 .ceo{
   color: white;
 }
+@media only screen and (max-width: 720px){
+    
+  .mission{
+       display: grid;
+      grid-template-columns: 1fr;
+      padding-bottom: 70px; 
+      text-align: center; 
+       margin-right: 90px;
+      margin-left: 100px;
+      
+      
+  }
+}
+
