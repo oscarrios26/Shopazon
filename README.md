@@ -1,70 +1,142 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Name
 
-## Available Scripts
+Shopazon
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+Shopazon is an e-commerce app that has the most popular and high-rated video games for all gamers. You will be able to see the most popular games, prices and detailed  information about each game. This app will also allow you to sell your own games by simple uploading your pictures and description / price. This app is built with React and Airtable. You will also be able to add and view games in your cart.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   
+## Wireframes
+![PC Screen](https://user-images.githubusercontent.com/92955104/144626027-72c8bdbc-12cc-4dae-aaf4-b242c951d9a0.png)
 
-### `npm test`
+<img src="https://user-images.githubusercontent.com/92955104/144439891-7a009aba-6acc-4314-adac-52b645a63c65.jpeg" alt="home" width="300"/>
+<img src="https://user-images.githubusercontent.com/92955104/144626194-94f38eb2-7876-4ac5-b46d-5e76d26235ee.png alt="info" width="300"/>
+<img src=https://user-images.githubusercontent.com/92955104/144393585-5472570d-9f8d-4b15-bf09-5469b5a3883a.jpeg alt="cart" width="300"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Component Hierarchy
+![Hierarchies  (3)](https://user-images.githubusercontent.com/92955104/144626333-07b0c753-8b68-4a03-8de5-ae25420473dc.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## API and Data Sample
+https://airtable.com/appAgSGw5HszDn6qS/tbloyyDqB3xYzjr5s/viwt6q0cT2BxOoSmT?blocks=hide
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+{
+    "records": [
+        {
+            "id": "recmdeVh5HyuPoEdZ",
+            "fields": {
+                "title": "FIFA 22",
+                "image": "https://m.media-amazon.com/images/I/817dIPZKz9L._SL1500_.jpg",
+                "text": "Build your dream squad and compete in FIFA Ultimate Team.",
+                "price": "$34.99"
+            },
+            "createdTime": "2021-12-02T05:54:22.000Z"
+        },
+        {
+            "id": "recMYde7NBcDwua1r",
+            "fields": {
+                "title": "Far Cry 6",
+                "image": "https://m.media-amazon.com/images/I/81AQ0wvcS-L._SL1500_.jpg",
+                "text": "Play as Dani Rojas, a local Yaran, as you fight alongside a modern-day guerrilla revolution to liberate Yara!",
+                "price": "$40.12"
+            },
+            "createdTime": "2021-12-02T05:54:22.000Z"
+        },
+        {
+            "id": "recgmKEqbXzdEzdak",
+            "fields": {
+                "title": "Madden NFL 22",
+                "image": "https://m.media-amazon.com/images/I/51hS3LBHdiS.jpg",
+                "text": "All-new features in Franchise include staff management, an enhanced seasons engine, and weekly strategy.",
+                "price": "$34.99"
+            },
+            "createdTime": "2021-12-02T05:54:22.000Z"
+        }
+    ],
+    "offset": "itrRlSlfMcYqbmbqN/recgmKEqbXzdEzdak"
+}
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### MVP/PostMVP
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+#### MVP 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+- Build my API with all the needed data and render it.
+- Make a Get request with axios.
+- Make a form and make PUT axios request.
+- Build responsive buttons and links.
+- Make 6 components and use Routes.
+- Use grid and Css for professional styling.
+- Add responsive design for better user experience on mobile and computer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+#### PostMVP  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+- Add more data to the API to render more information
+- Add more products
+- Give it more professional styling.
+- Make a payment form.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Project Schedule
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+|  Day | Deliverable | Status
+|---|---| ---|
+|December 2| Project Approval | Incomplete
+|December 3| Make components, routes, links, useEffect, props, forms | Incomplete
+|December 6| Params, navs, header, footer | Incomplete
+|December 7| Css, grid  | Incomplete
+|December 8| Refactoring, final touches | Incomplete
+|December 9| Presentations | Incomplete
+
+## Timeframes
+
+
+
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Finishing making API  | H | 3hrs| 3hrs | 3hrs |
+| Homepage rendering links and routes | H | 3hrs| 3hrs | 3hrs |
+| Homepage Navbar and footer | H | 2hrs | 2hrs | 2hrs |
+| Details page, passing props, params | H | 4hrs | 4hrs | 4hrs |
+| Details page, making buttons, form, footer | H | 3hrs | 3hrs | 3hrs |
+| Details page, axios PUT, rendering | H | 4hrs | 4hrs | 4hrs |
+| Cart page, buttons, footer | H | 3hrs | 3hrs | 3hrs |
+| Cart page, rendering images, descriptions and prices | H | 4hrs | 4hrs | 4hrs |
+| Grid | H | 3hrs | 3hrs | 3hrs |
+| Css on homepage  | H | 3hrs | 3hrs | 3hrs |
+| Css on details page | H | 3hrs | 3hrs | 3hrs |
+| Css on cart page | H | 3hrs | 3hrs | 3hrs |
+| Refactoring and final touches | H | 4hrs | 4hrs | 4hrs |
+| Total | H | 42hrs| 42hrs | 42hrs |
+
+## SWOT Analysis
+
+### Strengths:
+I have a clear plan to execute once i start, i feel comfortable with react. I also feel confident because i will get help if needed.
+### Weaknesses:
+Grid and styling are my weaknesses, im afraid to spend longer than anticipated on those two.
+### Opportunities:
+It will give me hands on experience with everything, apart from homework and labs. I will be able to gain experience creating an app in a short amount of time.
+### Threats:
+Not asking for help, i got a bad habit to not ask for help until the very last minute, but i need to change that. 
