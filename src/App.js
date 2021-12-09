@@ -26,7 +26,7 @@ function App(props) {
   const [toggle, setToggle] = useState(false)
   const navigate = useNavigate()
   const [cart, setCart] = useState([]);
-  console.log(cart)
+  
 
   useEffect(() => {
     const getGames = async () => {
@@ -47,7 +47,7 @@ function App(props) {
 
     } ;
 
-    const responce = await postGame(newGames);
+     if(2>1){await postGame(newGames);
     setToggle((prevToggle) => !prevToggle)
     
     
@@ -59,7 +59,7 @@ function App(props) {
     setPrice('')
     navigate('/')
     }
-
+  }
 
 
 
