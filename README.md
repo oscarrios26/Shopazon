@@ -6,7 +6,7 @@
 
 ## Project Description
 
-Shopazon is an e-commerce app that has the most popular and high-rated video games for all gamers. You will be able to see the most popular games, prices and detailed  information about each game. This app will also allow you to sell your own games by simply uploading your picture, description and price. This app is built with React and Airtable. You will also be able to add and view games in your cart.
+Shopazon is an e-commerce app that has the most popular and high-rated video games for all gamers. You will be able to see the most popular games, prices and detailed  information about each game. This app will also allow you to sell your own games by simply uploading your picture, description and price. You will also be able to add and view games in your cart. This app is built with React and Airtable.
 
     
 
