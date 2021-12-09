@@ -103,12 +103,12 @@ https://airtable.com/appAgSGw5HszDn6qS/tbloyyDqB3xYzjr5s/viwt6q0cT2BxOoSmT?block
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|December 2| Project Approval | Incomplete
-|December 3| Make components, routes, links, useEffect, props, forms | Incomplete
-|December 6| Params, navs, header, footer | Incomplete
-|December 7| Css, grid  | Incomplete
-|December 8| Refactoring, final touches | Incomplete
-|December 9| Presentations | Incomplete
+|December 2| Project Approval | Complete
+|December 3| Make components, routes, links, useEffect, props, forms | Complete
+|December 6| Params, navs, header, footer | Complete
+|December 7| Css, grid  | Complete
+|December 8| Refactoring, final touches | Complete
+|December 9| Presentations | Complete
 
 ## Timeframes
 
