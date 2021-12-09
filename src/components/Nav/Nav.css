@@ -4,10 +4,10 @@
 	top: 0;
 
    
-    width: 100%;
-    height: 80px;   
+     width: 990;    /*i changed this one form 100%    <==================================== */
+    height: 50px;   
     background-color: rgb(7, 36, 73);
-    border: 2px solid #0e110e;
+    border: 1px solid #0e110e;
     
     
    
@@ -19,9 +19,10 @@
 
 .homep{
    text-align: right;
-   margin-top: 50px;
+   margin-top: 20px;
    font-size: 25px;
-   margin-right: 10px;
+   margin-right: 10px; 
+   
    
 }
 
@@ -30,6 +31,7 @@
       text-decoration: none;
       margin-left: 10px;
       margin-right: 10px; 
+      
     }
 
    
@@ -44,6 +46,7 @@
       color: white;
       text-decoration: none;
       margin-left: 15px; 
+      margin-right: 5px;
       
     }
  

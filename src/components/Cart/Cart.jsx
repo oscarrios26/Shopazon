@@ -1,4 +1,4 @@
-// import { useState } from "react";
+
 import { Link } from "react-router-dom";
 
 import "./Cart.css"
@@ -10,7 +10,7 @@ export default function Cart(props) {
 
     const {cart} = props;
     const {setCart} = props;
-    // const [state, setState] = useState([])
+   
     console.log(setCart)
 
 

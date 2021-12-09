@@ -25,6 +25,8 @@
 .aboutMe{
   text-align: center; 
   
+  
+  
 }
 .mission{
   margin-top: 70px;
@@ -35,15 +37,19 @@
  
 }
 .bluediv{
+  
   background-color: rgb(37, 83, 114);
   padding-top: 10px;
   padding-bottom: 50px;
+  
+  
   
 }
 .storename{
   font-size: 60px;
   font-family: Courier, monospace;
   color: white;
+  padding-left: 50px;
 }
 .ceo{
   color: white;

@@ -11,7 +11,7 @@ export default function Homepage(props) {
     if (!props.games) {
         return <h3>Loading...</h3>
     }
-    return (<><div>  
+    return (<><div className="front">  
          <p className="websitename">Shopazon</p>
     </div><><div className="gameshomepage">
         {props.games.map(vg => (

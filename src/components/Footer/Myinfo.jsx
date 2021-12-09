@@ -2,7 +2,8 @@
 
 export default function Myinfo() {
     return (
-        <div className="aboutMe">
+         <div className="aboutMe">
+        
             <div className="bluediv">
             <h1 className="storename">Shopazon</h1>
             <h3 className="ceo">CEO Oscar Rios</h3>

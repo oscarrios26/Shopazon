@@ -37,7 +37,15 @@
     text-align: center;
     font-family: Courier, monospace; 
     font-weight: bold;
-    color: rgb(7, 36, 73);;
+    color: white;
+    
+    
+}
+.front{
+    background-color: rgb(37, 83, 114);
+    padding-top: 10px;
+    padding-bottom: 0px;
+    height: 140px;
     
 }
 @media only screen and (max-width: 600px){
