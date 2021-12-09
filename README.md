@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Shopazon
+Shopazon. https://wizardly-beaver-a85c33.netlify.app/
 
 ## Project Description
 
