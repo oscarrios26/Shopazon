@@ -19,7 +19,7 @@ export default function Homepage(props) {
             <Link key={vg.id}
                 to={`/details/${vg.id}`} className="dispalytitle">
 
-                <img src={vg.fields.image} className="eachgame" />
+                <img src={vg.fields.image} className="eachgame" alt="games" />
                 <h3 id="hometitlegame">{vg.fields.title}</h3>
             </Link>
 

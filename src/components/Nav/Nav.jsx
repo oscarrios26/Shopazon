@@ -4,7 +4,7 @@ import './Nav.css'
 export default function Nav(props) {
 
 const {cart} = props;
-const {setCart} = props;
+// const {setCart} = props;
     return (
     
     <>

@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./Cart.css"
@@ -10,7 +10,7 @@ export default function Cart(props) {
 
     const {cart} = props;
     const {setCart} = props;
-    const [state, setState] = useState([])
+    // const [state, setState] = useState([])
     console.log(setCart)
 
 
@@ -27,7 +27,7 @@ export default function Cart(props) {
         {props.cart.map(crt => (
     <div >
 
-        <img className="cartImage" src={crt.fields.image} />
+        <img className="cartImage" src={crt.fields.image} alt="selectedgame"/>
 
         <h1 className="cartPrice">{crt.fields.price}</h1></div>
 
