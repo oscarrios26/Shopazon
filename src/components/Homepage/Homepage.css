@@ -23,10 +23,10 @@
 }
 
 #hometitlegame{
-    text-decoration: none;font-family: monospace;
+    text-decoration: none;
     font-size: 20px;
     color: #0F1111;
-    font-family: sans-serif;
+     font-family: sans-serif; 
 }
 #hometitlegame:hover{
     -webkit-transform: scale(1.1);
@@ -37,6 +37,7 @@
     text-align: center;
     font-family: Courier, monospace; 
     font-weight: bold;
+    color: rgb(7, 36, 73);;
     
 }
 @media only screen and (max-width: 600px){
